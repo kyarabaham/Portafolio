@@ -185,6 +185,11 @@ a:hover {
   bottom: -12px;
 }
 
+#subscribe1{
+  background-color: #ffffff;
+  padding: 60px 0;
+
+}
 
 #subscribe {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/habilidades.jpg) fixed center center;
@@ -494,7 +499,7 @@ a:hover {
 .navbar-b.navbar-reduce .nav-link {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 380;
 }
 
 .navbar-b.navbar-trans .nav-link:before,
@@ -1227,6 +1232,48 @@ a:hover {
 
 .widget-tags ul li a {
   color: #fff;
+}
+/* Clients Section
+--------------------------------*/
+
+#clients {
+  padding: 60px 0;
+
+}
+#subscribe1 .herramientas1{
+     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+#subscribe1 img {
+  max-width: 100%;
+   transition: 0.3s;
+  padding: 15px 0;
+}
+.herramientas1{
+  color: #333333;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#clients .owl-nav,
+#subscribe1 .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#clients .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#clients .owl-dot.active {
+  background-color: #BC9CFF;
 }
 
 /*======================================
