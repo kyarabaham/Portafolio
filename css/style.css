@@ -184,24 +184,73 @@ a:hover {
   width: 100px;
   bottom: -12px;
 }
+.footer12{
+  color: #333333;
 
+}
+#farma{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/farma.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+  margin-bottom: 30px;
+}
+#farma .farma-title{
+  color: #f0f0f0;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 150px;
+  text-align: center;
+
+}
+#farma .farma-text{
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 20px;
+}
 #subscribe1{
   background-color: #ffffff;
   padding: 60px 0;
 
 }
-
+.carousel-indicators{
+  color: #0000ff;
+}
+.li{
+  color: #ffffff;
+}
 #subscribe {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/habilidades.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
   margin-bottom: 30px;
 }
+#subs{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/colors.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+  margin-bottom: 30px;
+}
+subs1{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(../img/fin.jpg) fixed center center;
+}
 
 #subscribe .subscribe-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
+}
+#subs .subs-title{
+    color: #f0f0f0;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+    text-align: center;
+
+}
+#subs .subs-text{
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 20px;
 }
 
 #subscribe .subscribe-text {
