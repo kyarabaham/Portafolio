@@ -168,6 +168,7 @@ a:hover {
 
 .title-box-2 {
   margin-bottom: 3rem;
+  margin-right: 6rem;
 }
 
 .title-left {
@@ -183,19 +184,77 @@ a:hover {
   width: 100px;
   bottom: -12px;
 }
+.footer12{
+  color: #333333;
 
+}
+.co-text{
+color: #2C304E;
+font-weight: 710;
+}
+#farma{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/farma.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+  margin-bottom: 30px;
+}
+#farma .farma-title{
+  color: #f0f0f0;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 150px;
+  text-align: center;
 
+}
+#farma .farma-text{
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 20px;
+}
+#subscribe1{
+  background-color: #ffffff;
+  padding: 60px 0;
+
+}
+.carousel-indicators{
+  color: #0000ff;
+}
+.li{
+  color: #ffffff;
+}
 #subscribe {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/habilidades.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
   margin-bottom: 30px;
 }
+#subs{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/colors.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+  margin-bottom: 30px;
+}
+subs1{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(../img/fin.jpg) fixed center center;
+}
 
 #subscribe .subscribe-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
+}
+#subs .subs-title{
+    color: #f0f0f0;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+    text-align: center;
+
+}
+#subs .subs-text{
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 20px;
 }
 
 #subscribe .subscribe-text {
@@ -493,7 +552,7 @@ a:hover {
 .navbar-b.navbar-reduce .nav-link {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 380;
 }
 
 .navbar-b.navbar-trans .nav-link:before,
@@ -1226,6 +1285,48 @@ a:hover {
 
 .widget-tags ul li a {
   color: #fff;
+}
+/* Clients Section
+--------------------------------*/
+
+#clients {
+  padding: 60px 0;
+
+}
+#subscribe1 .herramientas1{
+     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+#subscribe1 img {
+  max-width: 100%;
+   transition: 0.3s;
+  padding: 15px 0;
+}
+.herramientas1{
+  color: #333333;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#clients .owl-nav,
+#subscribe1 .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#clients .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#clients .owl-dot.active {
+  background-color: #BC9CFF;
 }
 
 /*======================================
